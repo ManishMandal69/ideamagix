@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 
-const BASE_URL="http://localhost:5000/api/"
+const BASE_URL="https://ideamagixweb.onrender.com/api/"
 
 export const publicRequest= Axios.create({
  baseURL: BASE_URL
